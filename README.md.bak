@@ -17,4 +17,4 @@ Other approaches for generating holograms capable of modal excitation an run fas
 
 Alternatively, iterative phase retrieval algorithms such as Gerchberg-Saxton can be used with a region of interest defined in the replay field plane. I seem to have implemented this at some point, but this script should nto be relied on yet.
 
-There is also a folder which uses an alternative approach, described in this [paper](https://doi.org/10.1117/1.OE.59.8.085104). Effectively, Parseval's theorem is used to create a representation of the target field in the hologram plane, allowing for extremely fast optimisation of the fields if the waveguide is quite big - I have not yet worked with big enough waveguides to really make use of this.
+
