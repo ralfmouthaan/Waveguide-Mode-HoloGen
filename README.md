@@ -11,7 +11,7 @@ Extremely high-purity modes can be coupled into with large amounts of power if d
 - or DirectSearchBinary.m, which exploits the fact that a guided mode is real-valued;
 - or DirectSearchSymmetryBinary.m, which exploits both the fact that a guided mode is real-valued and is symmetrical.
 
-The Hologen.m file needs to point to a results file from Waveguide-FDFD (this is the default). It creates .csv files containing holograms that can be used by CamLab-SLM-Manual-Alignment (for example). Alternatively, an example is gotten for how to get Waveguide-Mode-Hologen to generate modes for step index fibres based on Gloge's solver.
+The Hologen.m file needs to point to a results file from Waveguide-FDFD (this is the default). It creates .csv files containing holograms that can be used by CamLab-SLM-Manual-Alignment (for example). Alternatively, an example is available showing how to get Waveguide-Mode-Hologen to generate modes for step index fibres based on Gloge's solver.
 
 Other approaches for generating holograms capable of modal excitation an run faster, but yield lower-quality modes (mostly with less power coupled into the target mode). Some options include algorithms that exploit an experimental geometry with a spatial filter, such as those by [Arrizon](https://doi.org/10.1364/JOSAA.24.003500) and that by [Bolduc](https://doi.org/10.1364/OL.38.003546). An attempt has been made to implement these algorithms, but my efforts should be treated with caution - I think only Arrizon's third algorithm gives reasonable results.
 
